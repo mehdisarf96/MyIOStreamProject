@@ -1,7 +1,6 @@
 package com.mehdisarf.writer;
 
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 
@@ -11,7 +10,7 @@ public class FileWriterTest {
 
         try {
 
-            // F:\Java SE 2022\IO Stream\IO Stream Projects\MyIOStreamProject\src\com\mehdisarf\fileoutputstream
+            // F:\Java SE 2022\IO Stream\IO Stream Projects\MyIOStreamProject\src\com\mehdisarf\writer
             // backslash ha tabdil mishan be forward slash.
             FileWriter writer = new FileWriter("F:/Java SE 2022/IO Stream/IO Stream Projects/MyIOStreamProject/src/com/mehdisarf/writer/mehdi.txt");
             // ba hamin yek khat e bala, fileemun sakhte mishe.
