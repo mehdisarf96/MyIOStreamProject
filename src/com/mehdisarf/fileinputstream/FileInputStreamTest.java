@@ -11,7 +11,7 @@ public class FileInputStreamTest {
         try {
             // F:\Java SE 2022\IO Stream\IO Stream Projects\MyIOStreamProject\src\com\mehdisarf\fileinputstream\mehdi.txt
             // backslash ha tabdil mishan be forward slash.
-            FileInputStream inputStream = new FileInputStream("F:/Java SE 2022/IO Stream/IO Stream Projects/MyIOStreamProject/src/com/mehdisarf/fileinputstream/mehdi.txt");
+            FileInputStream inputStream = new FileInputStream("F:/Java SE 2022/IO Stream/IO Stream Projects/MyIOStreamProject/src/com/mehdisarf/fileinputstream/mehdi.txt"); // attach a InputStream to an existing file.
 
             byte[] myByteArray = new byte[inputStream.available()];
 
